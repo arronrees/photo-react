@@ -1,0 +1,66 @@
+.contact-main {
+  padding-bottom: 1rem;
+}
+
+form {
+  width: 80vw;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+label {
+  color: white;
+  letter-spacing: 0.25rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+input,
+textarea,
+button {
+  border: none;
+  border-radius: 2.5px;
+  padding: 1rem;
+}
+
+button {
+  margin-top: 2rem;
+  border: none;
+  align-self: center;
+  padding: 1rem 4rem;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Belleza', sans-serif;
+  letter-spacing: 0.25rem;
+}
+
+button:hover,
+button:focus,
+input:valid,
+textarea:valid {
+  background: #323232;
+  color: white;
+  transition: all 300ms ease;
+  border: 1px solid white;
+}
+
+@media only screen and (min-width: 800px) {
+  label,
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  form {
+    width: 60vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  form {
+    width: 50vw;
+  }
+}
