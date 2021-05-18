@@ -30,7 +30,7 @@ function App() {
       {!onHome && <Header navOpen={navOpen} setNavOpen={setNavOpen} />}
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.key}>
-          <Route exact path='/' onLeave={() => console.log('leaving')}>
+          <Route exact path='/'>
             <Home />
           </Route>
           <Route exact path='/work'>
